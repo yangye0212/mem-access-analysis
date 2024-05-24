@@ -80,7 +80,7 @@ app.layout = html.Div([
                 ],
                 multi=True,  # 允许多选
                 placeholder='Select PC',  # 设置占位符
-                style={'width': '150px', 'marginRight': '40px', 'textAlign': 'left'}  # 设置筛选器宽度为150像素
+                style={'width': '150px', 'marginRight': '40px', 'textAlign': 'left', 'verticalAlign': 'middle'}  # 设置筛选器宽度为150像素
             ),
 
             html.Div(
